@@ -9,6 +9,18 @@ A status ping with nothing to report is a chance for a smile. Answer it with ONE
 pronounceable, and never built from the same parts twice in a row. Good ones sound like words a
 cartoon sidekick might blurt (Hobnoggle, Quindlebarf, Blargissimo), and people end up adopting them.
 
+## When to use it
+- A scheduled check (mail, messages, a CI run, a review queue) finds nothing new.
+- A background task pings while it's still working.
+- Any status update whose honest content is "no change".
+
+## Example
+**A cron check:** "Check the build queue. If nothing changed, reply with one made-up word."
+
+**Output:** `Blargissimo`
+
+Later the same day, the same check: `Crumpetfendle`, then `Zorpelette`, never the same parts twice.
+
 ## How to build one
 1. Pick 2 (sometimes 3) parts from DIFFERENT families below, or invent new ones.
 2. Now and then (not every time), operate on them:
