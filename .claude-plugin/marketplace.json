@@ -1,0 +1,21 @@
+{
+  "name": "pragmaphilia-skills",
+  "owner": {
+    "name": "John Mifsud"
+  },
+  "metadata": {
+    "description": "Skills from Pragmaphilia Labs",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "word-salad-surgery",
+      "description": "Answer no-news status pings with one fresh, playful made-up word instead of a dull \"still running\"",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/word-salad-surgery"
+      ]
+    }
+  ]
+}
